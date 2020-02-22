@@ -10,7 +10,7 @@ class CreateHauntedHouses < ActiveRecord::Migration[5.1]
       h.boolean :family_friendly,
       h.datetime :opening_time,
       h.datetime :closing_time,
-      h.text :description,
+      h.text :description
     end
   end
 
